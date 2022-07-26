@@ -3,7 +3,7 @@ import { Router } from 'express';
 import UserController from './controllers/UserControllers';
 
 const router = Router();
-
+//new
 
 router.post ("/user", UserController.createUser);
 router.get ("/users", UserController.findAllUsers);
